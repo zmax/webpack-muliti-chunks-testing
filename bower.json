@@ -1,0 +1,23 @@
+{
+  "name": "webpack-muliti-chunks-testing",
+  "version": "0.0.1",
+  "authors": [
+    "Starck Lin <zenyer@gmail.com>"
+  ],
+  "description": "Webpack muliti-chunks testing",
+  "main": "app/index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
