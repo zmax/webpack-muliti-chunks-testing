@@ -87,24 +87,3 @@ app.post('/upload', function(req, res) {
     );
 });
 
-function requestTest(url) {
-    return new Promise(function(fulfill, reject) {
-        request(url, function (error, response, body) {
-            if (!error && response.statusCode == 200) {
-                fulfill(body);
-            }
-            reject(error);
-        });
-
-    });
-}
-
-app.get('/testApi', function(req, res) {
-    requestTest('http://wonderfall.local/api/users').done(function(response) {
-        console.log('load api done.');
-        res.writeHead(200, {'Content-Type': 'text/html','Content-Length':response.length});
-        res.write(response);
-        res.end();
-    });
-
-});
