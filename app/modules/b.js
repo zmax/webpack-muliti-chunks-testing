@@ -13,6 +13,9 @@
 
 // }, 'c');
 
+require('./a.css');
+require('./b.css');
+
 var C = require('modules/c');
 
 var ModuleB = function() {
