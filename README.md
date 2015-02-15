@@ -10,8 +10,11 @@ bower install
 
 ### Build
 
-```
+```sh
 npm run build
+
+# or use gulp
+gulp
 ```
 
 ### Dev Server

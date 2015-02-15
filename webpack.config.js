@@ -1,6 +1,10 @@
 var webpack = require('webpack');
 
+var dist = '/public';
+
 module.exports = {
+
+    watch: true,
 
     context: __dirname + "/app",
 
@@ -12,7 +16,7 @@ module.exports = {
     },
 
     output: {
-        path: __dirname + "/public/js",
+        path: __dirname + dist + "/js",
         filename: "[name].bundle.js",
         chunkFilename: "[name].bundle.js",
         publicPath: "js/"

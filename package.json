@@ -14,6 +14,8 @@
     "css-loader": "^0.9.0",
     "express": "^4.10.2",
     "file-loader": "^0.8.1",
+    "gulp": "^3.8.11",
+    "gulp-webpack": "^1.2.0",
     "jsx-loader": "^0.12.1",
     "multer": "^0.1.6",
     "react-tools": "^0.12.0",
